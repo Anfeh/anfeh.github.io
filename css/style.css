@@ -1,32 +1,48 @@
 *{
     padding: 0;
     margin: 0;
+    font: white;
+    font-family: "Quicksand", sans-serif;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
-@font-face {
-    font-family: 'Principal';
-    src: url();
+.containerPrincipal{
+  display: flex;
+  height: 100vh;
+  font-size: 2em;
+  color: #fff;
+
 }
-
+.left{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 img{
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 350px;
+  max-height: 350px;
   border-radius: 800px;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
-  background: #111;
+  background: #312528;
   width: 100%;
   overflow: hidden;
 }
 .ring {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
